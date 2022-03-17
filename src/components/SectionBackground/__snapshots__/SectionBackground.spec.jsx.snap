@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionBackground /> Should render with correct background dark 1`] = `
+.c0 {
+  background: #FFFFFF;
+  color: #FFFFFF;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+<div>
+  <div
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      Children
+    </div>
+  </div>
+</div>
+`;

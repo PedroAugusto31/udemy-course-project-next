@@ -7,8 +7,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <GlobalStyles />
         <Component {...pageProps} />
+        <GlobalStyles />
       </ThemeProvider>
     </>
   );
