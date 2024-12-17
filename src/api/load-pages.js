@@ -6,7 +6,7 @@ export const loadPages = async (slug = "") => {
   // const url = `${config.url}/pages/${cleanSlug}`;
   const url = `${config.url}`;
 
-  const rawData = await fetch(url);
+  const rawData = require(url);
   const json = rawData.json();
   const data = mapData(json);
 
