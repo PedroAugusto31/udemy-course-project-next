@@ -1,5 +1,5 @@
 export default {
-  url: "./api/dados.json",
+  url: "./dados.json",
   siteName: "Otávio Miranda",
   defaultSlug: "landing-page",
 };
